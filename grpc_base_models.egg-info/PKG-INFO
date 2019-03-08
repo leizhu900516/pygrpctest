@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: grpc-base-models
+Version: 0.0.1
+Summary: python版本的grpc公用模块,个人项目专用,仅供参考
+Home-page: https://github.com/leizhu900516
+Author: chenhuachao
+Author-email: leizhu900516@163.com
+License: MIT Licence
+Description: grpc server for python
+Keywords: pip,pygrpc,company,chenhuachao
+Platform: UNKNOWN

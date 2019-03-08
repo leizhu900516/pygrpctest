@@ -1,0 +1,21 @@
+syntax = "proto3";
+package grpcServer;
+service Greeter {
+    rpc GetContent (Request) returns (Return) {} //定义要调用的函数(GetSummary)+(Request)接受的参数+(Return)返回的参数
+
+}
+
+message Request {       //传参数据类型
+    string content = 1;//文本
+    int32 code=2;      //返回状态0success；1failed
+}
+
+message Return {       //返回数据类型
+    string message = 1;//文本
+    int32 code=2;      //返回状态0success；1failed
+}
+//执行命令+安装步骤
+//pip3 install grpcio
+//pip3 install protobuf
+//pip3 install grpcio-tools
+//python3 -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. data.proto
