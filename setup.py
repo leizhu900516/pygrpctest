@@ -18,6 +18,6 @@ setup(
     install_requires = [
         'grpcio==1.19.0',
         'grpcio-tools==1.19.0',
-        'protobuf==3.7.0',
+        'protobuf==3.18.3',
     ]
 )
