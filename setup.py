@@ -16,7 +16,7 @@ setup(
     author_email="leizhu900516@163.com",
     packages = find_packages(),
     install_requires = [
-        'grpcio==1.19.0',
+        'grpcio==1.53.0',
         'grpcio-tools==1.19.0',
         'protobuf==3.7.0',
     ]
